@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <main className="px-4 sm:px-6 lg:px-8 py-10 bg-white dark:bg-gray-900 min-h-screen text-black dark:text-white transition-colors">
+    <main className="px-4 sm:px-6 lg:px-8 py-10 bg-[url('/contact.jpg')] bg-cover bg-center bg-fixed bg-no-repeat min-h-screen text-black dark:text-white transition-colors">
       <div className="max-w-3xl mx-auto space-y-10">
         {/* Heading */}
         <header>
@@ -43,7 +43,7 @@ const Contact = () => {
 
           {/* Call */}
           <a
-            href="tel:+919876543210"
+            href="tel:+918929088285"
             className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-md shadow-md transition duration-300 hover:scale-[1.02]"
           >
             <svg
@@ -72,7 +72,7 @@ const Contact = () => {
             {/* Map */}
             <div className="overflow-hidden rounded-md shadow-md">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83925138923!2d77.0688991022454!3d28.527280343029376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1b3d0ad87b1%3A0x2f0e84d0aa6a5f3a!2sNew%20Delhi!5e0!3m2!1sen!2sin!4v1595238123456!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14609.051932472987!2d85.73646029368636!3d23.73799965885786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f467c78337ebb9%3A0xecea84f68c99416e!2sLalpania%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1753912832359!5m2!1sen!2sin"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}

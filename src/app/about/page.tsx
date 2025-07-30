@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="min-h-screen bg-gray-50 px-4 py-12 text-gray-800">
-      <div className="max-w-4xl mx-auto text-center">
+    <main className="min-h-screen bg-[url('/about.jpg')] bg-cover bg-fixed bg-center bg-no-repeat px-4 py-8 text-gray-800">
+      <div className="max-w-4xl mx-auto text-center bg-white/70 backdrop-blur-md p-6 rounded-xl">
         <h1 className="text-4xl font-bold text-blue-700 mb-6">About Axis25</h1>
         <p className="text-lg mb-6">
           Axis25 is founded by a passionate architect committed to creating
@@ -11,7 +11,7 @@ export default function About() {
           reflects purpose, elegance, and efficiency.
         </p>
 
-        <div className="bg-white shadow-md rounded-xl p-6 mt-8">
+        <div className="bg-white shadow-xl rounded-xl p-6 mt-8">
           <div className="flex justify-center">
             <Image
               src="/founder.jpg"

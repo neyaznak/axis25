@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function ProjectsPage() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 bg-[url('/projects.jpg')] bg-cover bg-fixed bg-center bg-no-repeat min-h-screen">
       <h1 className="text-4xl font-bold text-center mb-8">Projects</h1>
 
       <section className="bg-white shadow-lg rounded-lg p-6 mb-12">
