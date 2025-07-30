@@ -27,7 +27,7 @@ const Contact = () => {
         <section className="grid sm:grid-cols-2 gap-4">
           {/* WhatsApp */}
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/918929088285"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white py-3 px-4 rounded-md shadow-md transition duration-300 hover:scale-[1.02]"
